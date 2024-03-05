@@ -3,19 +3,19 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-class Userd {
-    final String name;
-    final int age;
-
-    Userd(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-}
-
 public class Array {
     public static void main(String[] args) {
         test13();
+    }
+
+    static class Userd {
+        final String name;
+        final int age;
+
+        Userd(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
     }
 
     //배열 복사
