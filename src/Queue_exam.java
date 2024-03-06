@@ -4,31 +4,30 @@ import java.util.LinkedList;
 public class Queue_exam {
     Queue<String> nameof = new LinkedList<>();
 
-    public void main(String[] args){
-        nameof.add("first");
-        nameof.offer("second");
-        nameof.offer("third");
-        nameof.offer("fourth");
+    public static void main(String[] args) {
+        Queue_exam queue_exam = new Queue_exam();
 
-        System.out.println(nameof);
+        queue_exam.nameof.add("first");
+        queue_exam.nameof.offer("second");
+        queue_exam.nameof.offer("third");
+        queue_exam.nameof.offer("fourth");
 
-        nameof.poll();
-        nameof.remove("third");
+        System.out.println(queue_exam.nameof);
 
+        queue_exam.nameof.poll();
+        queue_exam.nameof.remove("third");
 
+        System.out.println(queue_exam.nameof);
 
-        System.out.println(nameof);
+        System.out.println(queue_exam.nameof.peek());
+        System.out.println(queue_exam.nameof.element());
 
-        System.out.println(nameof.peek());
-        System.out.println(nameof.element());
+        System.out.println(queue_exam.nameof.size());
 
-        System.out.println(nameof.size());
-
-
-        if(nameof.contains("fourth")){
-            nameof.clear();
+        if (queue_exam.nameof.contains("fourth")) {
+            queue_exam.nameof.clear();
         }
-        System.out.println(nameof.isEmpty());
-
+        System.out.println(queue_exam.nameof.isEmpty());
     }
+
 }

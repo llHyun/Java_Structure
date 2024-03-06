@@ -368,4 +368,52 @@ public class BST<E> {
         current.right = null;
         return current;
     }
+    /**
+     * 전위 순회
+     * (부모 노드 > 왼쪽 자식 노드 > 오른쪽 자식 노드)
+     */
+    public void preorder() {
+        preorder(this.root);
+    }
+
+    public void preorder(Node<E> o) {
+        // null이 아닐 떄 까지 재귀적으로 순회
+        if(o != null) {
+            System.out.print(o.value + " ");	// 부모 노드
+            preorder(o.left);	// 왼쪽 자식 노드
+            preorder(o.right);	// 오른쪽 자식 노드
+        }
+    }
+
+    /**
+     * 중위 순회
+     * (왼쪽 자식 노드 > 부모 노드 > 오른쪽 자식 노드)
+     */
+    public void inorder() {
+        inorder(this.root);
+    }
+
+    public void inorder(Node<E> o) {
+        if(o != null) {
+            inorder(o.left);	// 왼쪽 자식 노드
+            System.out.print(o.value + " ");	// 부모 노드
+            inorder(o.right);	// 오른쪽 자식 노드
+        }
+    }
+
+    /**
+     * 후위 순회
+     * (왼쪽 자식 노드 > 오른쪽 자식 노드 > 부모 노드)
+     */
+    public void postorder() {
+        postorder(this.root);
+    }
+
+    public void postorder(Node<E> o) {
+        if(o != null) {
+            postorder(o.left);	// 왼쪽 자식 노드
+            postorder(o.right);	// 오른쪽 자식 노드
+            System.out.print(o.value + " ");	// 부모 노드
+        }
+    }
 }
