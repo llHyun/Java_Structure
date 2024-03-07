@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e190075-523c-4c41-a3c5-5bba4a6add7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reference.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BST_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph_procession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linear_Probing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +45,20 @@
     "Application.Array.executor": "Run",
     "Application.BST_test.executor": "Run",
     "Application.CircularDoublyLinkedList.executor": "Run",
+    "Application.Graph.executor": "Run",
+    "Application.Graph_procession.executor": "Run",
+    "Application.Hash.executor": "Run",
+    "Application.Linear_Probing.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Mainr.executor": "Run",
     "Application.MyStack.executor": "Run",
     "Application.Queue_Deque.executor": "Run",
     "Application.Queue_exam.executor": "Run",
+    "Application.Sorting.executor": "Run",
+    "Application.Sorting_main.executor": "Run",
+    "Application.Undirected_Graph.executor": "Run",
+    "Application.Undirected_Graph_list.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,38 +77,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Mainr">
-    <configuration name="BST_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST_test" />
+  <component name="RunManager" selected="Application.Sorting_main">
+    <configuration name="Graph_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph_list" />
       <module name="Structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Structure" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mainr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mainr" />
+    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash" />
       <module name="Structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyStack" />
+    <configuration name="Linear_Probing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linear_Probing" />
       <module name="Structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue_exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue_exam" />
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting" />
+      <module name="Structure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorting_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting_main" />
       <module name="Structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Mainr" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BST_test" />
-        <item itemvalue="Application.Queue_exam" />
-        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.Sorting_main" />
+        <item itemvalue="Application.Sorting" />
+        <item itemvalue="Application.Linear_Probing" />
+        <item itemvalue="Application.Hash" />
+        <item itemvalue="Application.Undirected_Graph_list" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +144,9 @@
       <workItem from="1709700161410" duration="284000" />
       <workItem from="1709700460194" duration="950000" />
       <workItem from="1709701496753" duration="4106000" />
+      <workItem from="1709738025191" duration="269000" />
+      <workItem from="1709738508176" duration="110000" />
+      <workItem from="1709787206480" duration="6856000" />
     </task>
     <servers />
   </component>
