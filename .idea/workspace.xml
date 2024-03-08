@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e190075-523c-4c41-a3c5-5bba4a6add7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph_list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph_procession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linear_Probing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reference.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9e190075-523c-4c41-a3c5-5bba4a6add7e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hyun/Desktop/University/Internship/Java_Structure",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,12 +64,13 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Array.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Sorting_main">
-    <configuration name="Graph_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph_list" />
+  <component name="RunManager" selected="애플리케이션.Array">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,18 +106,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sorting_main" />
-        <item itemvalue="Application.Sorting" />
-        <item itemvalue="Application.Linear_Probing" />
-        <item itemvalue="Application.Hash" />
-        <item itemvalue="Application.Undirected_Graph_list" />
+        <item itemvalue="애플리케이션.Array" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
@@ -147,6 +134,8 @@
       <workItem from="1709738025191" duration="269000" />
       <workItem from="1709738508176" duration="110000" />
       <workItem from="1709787206480" duration="6856000" />
+      <workItem from="1709880277565" duration="34000" />
+      <workItem from="1709880316886" duration="287000" />
     </task>
     <servers />
   </component>
