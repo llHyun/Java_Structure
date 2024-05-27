@@ -21,7 +21,7 @@ public class Sorting_main {
         sort.sortByShellSort(array4);
 
         //합병 정렬
-        int[] array5 = {2, 1, 4, 3, 5};
+        int[] array5 = {9, 2, 1, 4, 3, 5};
         sort.sortByMergeSort(array5);
 
 
