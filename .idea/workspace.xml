@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e190075-523c-4c41-a3c5-5bba4a6add7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting_main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9e190075-523c-4c41-a3c5-5bba4a6add7e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -148,6 +148,7 @@
       <workItem from="1710225577801" duration="1361000" />
       <workItem from="1710227853784" duration="5000" />
       <workItem from="1710307354801" duration="26000" />
+      <workItem from="1732530912928" duration="13000" />
     </task>
     <servers />
   </component>
